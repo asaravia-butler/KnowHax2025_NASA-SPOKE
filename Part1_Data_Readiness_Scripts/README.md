@@ -2,6 +2,10 @@
 
 This folder holds scripts to help with Part 1 of the KnowHax 2025 [SPOKE For Space Health Challenge](https://docs.google.com/document/d/1nzzrIDcLS8-L2yQ5dBrkcIHtrjjQbVk8).
 
+--- 
+
+<br>
+
 ## Extract OSD metadata for pairwise comparisons
 
 ### Description
