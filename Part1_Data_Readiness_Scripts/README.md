@@ -6,11 +6,15 @@ This folder holds scripts to help with Part 1 of the KnowHax 2025 [SPOKE For Spa
 
 ### Description
 
-The `save_metadata.py` python script is designed to extract sample names and experimental factor values from studies hosted on the [NASA Open Science Data Repository](https://osdr.nasa.gov/bio/repo), and create a files to specify sample groups and all pairwise comparisons.
+The `save_metadata.py` python script is designed to extract sample names and experimental factor values from studies hosted on the [NASA Open Science Data Repository](https://osdr.nasa.gov/bio/repo), and create files to specify sample groups and all pairwise comparisons.
+
+<br> 
 
 ### Dependencies
 
 [Python](https://www.python.org/) is required to run the script.
+
+<br> 
 
 ### Download script
 
@@ -18,11 +22,15 @@ The `save_metadata.py` python script is designed to extract sample names and exp
 curl -LO insert-lnk
 ```
 
+<br> 
+
 ### Usage
 
 ```bash
 python save_metadata.py OSD-ACCESSION
 ```
+
+<br> 
 
 ### Output
 
@@ -33,9 +41,13 @@ Table containing two columns, "Sample Name" and "Treatment Group", where the val
 > *Note: Treatment groups are made by combining the values in each "Factor Value" column with an '&' symbol for each sample in the OSD-ACCESSION sample table.*
 > *This can be used to identify which group each sample belongs to.* 
 
+<br> 
+
 **OSD-ACCESSION_contrasts.csv:** 
 Table containing a column for each possible pairwise group comparison for the selected OSD-ACCESSION. Rows 1 and 2 under each column contain the treatment groups being compared.
 > *Note: This can be used to identify all pairwise comparisons that should be performed in Part 1 of the KnowHax 2025 SPOKE For Space Health Challenge.*
+
+<br> 
 
 ### Example using [OSD-295](https://osdr.nasa.gov/bio/repo/data/studies/OSD-295)
 
@@ -43,7 +55,7 @@ Table containing a column for each possible pairwise group comparison for the se
 python save_metadata.py OSD-295
 ```
 
-See the [OSD-295_example_outputs]() folder to view the output CSV files for the example command above.
+See the [OSD-295_example_outputs](OSD-295_example_outputs) folder to view the output CSV files for the example command above.
 
 
 
