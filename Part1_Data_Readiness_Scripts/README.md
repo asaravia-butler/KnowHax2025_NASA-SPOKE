@@ -19,7 +19,7 @@ The `save_metadata.py` python script is designed to extract sample names and exp
 ### Download script
 
 ```bash
-curl -LO insert-lnk
+curl -LO https://raw.githubusercontent.com/asaravia-butler/KnowHax2025_NASA-SPOKE/refs/heads/main/Part1_Data_Readiness_Scripts/save_metadata.py
 ```
 
 <br> 
@@ -35,6 +35,8 @@ python save_metadata.py OSD-ACCESSION
 ### Output
 
 This script will output two CSV files, OSD-ACCESSION_SampleTable.csv and OSD-ACCESSION_contrasts.csv.
+
+<br>
 
 **OSD-ACCESSION_SampleTable.csv:** 
 Table containing two columns, "Sample Name" and "Treatment Group", where the values in the "Sample Name" column correspond to the sample name for each sample in the OSD-ACCESSION dataset and the values in the "Treatment Group" column are the respective treatment group for each sample.
