@@ -44,8 +44,9 @@ This script will output two CSV files, OSD-ACCESSION_SampleTable.csv and OSD-ACC
 
 **OSD-ACCESSION_SampleTable.csv:** 
 Table containing two columns, "Sample Name" and "Treatment Group", where the values in the "Sample Name" column correspond to the sample name for each sample in the OSD-ACCESSION dataset and the values in the "Treatment Group" column are the respective treatment group for each sample.
-> *Note: Treatment groups are made by combining the values in each "Factor Value" column with an '&' symbol for each sample in the OSD-ACCESSION sample table.*
-> *This can be used to identify which group each sample belongs to.* 
+> *Notes:* 
+> - *Treatment groups are made by combining the values in each "Factor Value" column with an '&' symbol for each sample in the OSD-ACCESSION sample table.* 
+> - *This can be used to identify which group each sample belongs to.*  
 
 <br> 
 
